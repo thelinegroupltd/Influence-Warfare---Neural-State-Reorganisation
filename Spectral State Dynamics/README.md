@@ -4,7 +4,7 @@
 
 This directory contains figures examining large-scale cortical organisation through coherence and network synchronisation analyses.
 
-Rather than focusing solely on changes in spectral power, these analyses quantify how distributed cortical regions coordinate their activity across canonical EEG frequency bands. Coherence matrices were generated for both the baseline resting-state (eyes closed) and modulation conditions using the full 32-channel EEG recordings.
+These analyses quantify how distributed cortical regions coordinate their activity across canonical EEG frequency bands. Coherence matrices were generated for both the baseline resting-state (eyes closed) and modulation conditions using the full 32-channel EEG recordings.
 
 Relative to baseline, the modulation condition demonstrated altered patterns of synchronisation across multiple frequency bands, particularly within theta and alpha networks. These changes were region-specific rather than globally distributed, indicating functional reorganisation of large-scale cortical communication rather than uniform increases or decreases in synchronisation.
 
