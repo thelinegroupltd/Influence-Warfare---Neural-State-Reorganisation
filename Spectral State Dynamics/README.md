@@ -1,4 +1,4 @@
-# State Dynamics
+# Spectral State Dynamics
 
 ## The Brain's Adaptive Reorganisation Under Modulation
 
