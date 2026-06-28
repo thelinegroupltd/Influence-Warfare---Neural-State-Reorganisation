@@ -19,8 +19,6 @@ These findings should not be interpreted as the brain becoming simply "more rand
 
 Informational content and temporal structure appear to be selectively reconfigured across frequency bands.
 
-Viewed alongside the coherence analyses, these findings support the broader interpretation that modulation altered the organisation of cortical activity rather than merely increasing or decreasing oscillatory power.
-
-The significance of these figures is conceptual rather than clinical. They help illustrate that cognitive state is not merely a metaphor for mood, opinion, or belief. It can be examined as a measurable pattern of system organisation.
+Viewed alongside the coherence analyses, these findings support the broader interpretation that modulation altered the organisation of cortical activity rather than merely increasing or decreasing oscillatory power. They help illustrate that cognitive state is not merely a metaphor for mood, opinion, or belief. It can be examined as a measurable pattern of system organisation.
 
 If cognitive state changes how neural systems coordinate, stabilise, and process information, then influence signals are not received by a neutral system. They are processed through an existing operating condition that shapes how information is prioritised, integrated, and ultimately converted into behaviour.
