@@ -2,7 +2,7 @@
 
 ## State-Space Dynamics and Spectral Reorganisation
 
-This directory contains the complete state-space analysis supporting the spectral investigations presented in the accompanying paper. Included are all generated figures, source CSV files, and derived metrics describing how cortical spectral dynamics evolved under the modulation condition.
+This directory contains the complete state-space analysis supporting the spectral investigations. Included are all generated figures, source CSV files, and derived metrics describing how cortical spectral dynamics evolved under the modulation condition.
 
 These figures are included as supplementary material for the Influence Warfare Beyond Narratives Cognitive State Manipulation in the Attention Age paper. Their purpose is not to demonstrate or validate a particular modulation method. Instead, they illustrate that cognitive state can be examined not only as a pattern of neural organisation, but also as a continuously evolving dynamical process.
 
