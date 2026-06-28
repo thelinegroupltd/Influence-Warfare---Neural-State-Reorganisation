@@ -4,7 +4,7 @@
 
 This directory contains figures examining how spectral power was redistributed across cortical regions and frequency bands between the baseline resting-state condition and the modulation condition.
 
-These figures are included as supplementary material for the accompanying paper. Their purpose is not to demonstrate or validate a particular modulation method. Instead, they illustrate that changes in cognitive state are not uniformly distributed across the cortex, but may emerge as selective patterns of regional and frequency-specific reorganisation.
+These figures are included as supplementary material. They illustrate that changes in cognitive state are not uniformly distributed across the cortex, but may emerge as selective patterns of regional and frequency-specific reorganisation.
 
 The analyses compare baseline and modulation conditions using median spectral power for each EEG channel and frequency band. Baseline-normalised difference maps and reorganisation indices were then calculated to quantify the magnitude and spatial distribution of those changes.
 
