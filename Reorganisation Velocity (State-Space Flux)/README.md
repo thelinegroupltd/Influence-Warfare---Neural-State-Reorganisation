@@ -2,9 +2,11 @@
 
 ## State-Space Dynamics and Spectral Reorganisation
 
-This directory contains the complete state-space analysis supporting the exploratory spectral investigation presented in the accompanying paper. Included are all generated figures, source CSV files, and derived metrics describing how cortical spectral dynamics evolved under the modulation condition.
+This directory contains the complete state-space analysis supporting the spectral investigations presented in the accompanying paper. Included are all generated figures, source CSV files, and derived metrics describing how cortical spectral dynamics evolved under the modulation condition.
 
-Rather than examining spectral power alone, these analyses treat successive EEG observations as trajectories through a multidimensional spectral state space. Together, the metrics characterise **how the brain moves through its own dynamical landscape**, quantifying the direction, magnitude, persistence and organisation of ongoing cortical state transitions.
+These figures are included as supplementary material for the Influence Warfare Beyond Narratives Cognitive State Manipulation in the Attention Age paper. Their purpose is not to demonstrate or validate a particular modulation method. Instead, they illustrate that cognitive state can be examined not only as a pattern of neural organisation, but also as a continuously evolving dynamical process.
+
+These analyses treat successive EEG observations as trajectories through a multidimensional spectral state space. These metrics characterise how cortical activity evolves through its own dynamical landscape by quantifying the direction, magnitude, persistence, and organisation of ongoing state transitions.
 
 ## Contents
 
@@ -16,37 +18,34 @@ The directory includes analyses of:
 * Burst statistics
 * Entropy × Flux relationships
 * Regional Entropy × Flux analyses
-* Differential entropy and complexity comparisons
 * Supporting CSV datasets for every figure
 
 ## Summary of Findings
 
-Across independent analyses, a consistent systems-level pattern emerged.
+Across the analyses, modulation was associated with several consistent changes in cortical state dynamics.
 
-Neuromodulation was associated with:
+These included:
 
 * increased large-scale functional coordination;
-* subtle redistribution of informational complexity rather than wholesale loss of entropy;
+* redistribution of informational complexity rather than wholesale loss of entropy;
 * longer persistence of reorganised cortical states;
-* substantially smaller state-space excursions;
-* preservation of continuous adaptive state evolution.
+* smaller state-space excursions;
+* preservation of continuous state evolution.
 
-Importantly, the modulation did **not** suppress neural dynamics. Instead, cortical activity continued to evolve continuously, but through smoother trajectories and smaller multidimensional adjustments.
+Cortical activity did not become static. Neural organisation continued to evolve throughout the recording, but successive state transitions occurred through smaller and more continuous adjustments.
 
-Cosine-based flux demonstrated that successive cortical states maintained continuous directional evolution, while L2 flux showed that these trajectories travelled shorter distances through spectral state space. Distributional analyses further confirmed that modulation selectively reduced large state transitions while preserving frequent low-amplitude adjustments.
+Cosine-based flux demonstrated that cortical trajectories maintained continuous directional evolution, while L2 flux showed that successive states travelled shorter distances through spectral state space. Distributional analyses further indicated that modulation reduced the frequency of large state transitions while preserving frequent low-amplitude adjustments.
 
-Joint entropy–flux analyses revealed that the underlying entropy–flux constraint remained largely unchanged between conditions. Rather than creating a fundamentally new dynamical regime, neuromodulation appeared to alter how the existing dynamical landscape was occupied. Both global and regional analyses demonstrated that trajectories became increasingly concentrated within stable, high-information, low-flux regions while preserving the overall geometry of the cortical attractor.
+Entropy–flux analyses suggested that the overall relationship between informational organisation and state transitions remained broadly preserved between conditions. Rather than indicating an entirely new dynamical landscape, the results are consistent with modulation altering how existing regions of state space were occupied over time.
 
 ## Systems Interpretation
 
-When considered alongside the coherence, entropy, complexity and temporal persistence analyses contained elsewhere in this repository, the state-space analyses support a unified interpretation.
+The previous analyses describe how cortical activity is coordinated, organised, and maintained. State-space flux adds another dimension by examining how that organisation evolves from one moment to the next. Together, these analyses illustrate that cognitive state is defined not only by where cortical activity is organised, but also by how it transitions between successive operating conditions.
 
-Rather than increasing or decreasing neural activity in a simplistic sense, the modulation appears to recalibrate cortical dynamics toward a more constrained, efficient and dynamically stable operating regime. Large intermittent reorganisations become less common, while continuous fine-scale adaptation is preserved.
+Rather than simply increasing or decreasing neural activity, the findings are consistent with cortical dynamics becoming more constrained, efficient, and dynamically stable. Large intermittent reorganisations become less common, while continuous fine-scale adaptation is preserved.
 
 From a dynamical systems perspective, the intervention appears to modify the **navigation of cortical state space** rather than its underlying topology. The brain continues to adapt, but does so through smaller, more controlled adjustments that maintain trajectory continuity and reduce unnecessary large-scale fluctuations.
 
-## Repository Structure
+If cognitive state influences how information is processed, then understanding the dynamics of state transitions provides additional insight into how neural systems adapt while remaining responsive to changing internal and external signals.
 
-Every figure is accompanied by the corresponding processed CSV data to maximise transparency and reproducibility. The raw EEG recordings used to generate these analyses are intentionally not included within this repository.
 
-These analyses are exploratory and are intended to provide a systems-level characterisation of neuromodulation by integrating spectral organisation, information dynamics, temporal persistence and cortical state-space evolution into a unified analytical framework.
