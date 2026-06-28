@@ -2,7 +2,7 @@
 
 This directory contains figures examining changes in cortical information dynamics between the baseline resting-state condition and the modulation condition.
 
-These figures are included as supplementary material for the influence-warfare paper. Their purpose is not to demonstrate or validate a particular modulation method. They are intended to illustrate that cognitive state can be measured as a dynamic operating condition, and that changes in state may be associated with changes in how neural information-processing systems are organised.
+These figures are included as supplementary material for the Influence Warfare Beyond Narratives Cognitive State Manipulation paper. Their purpose is not to demonstrate or validate a particular modulation method. They are intended to illustrate that cognitive state can be measured as a dynamic operating condition, and that changes in state may be associated with changes in how neural information-processing systems are organised.
 
 Shannon entropy and Lempel-Ziv (LZ76) complexity capture complementary aspects of EEG dynamics.
 
