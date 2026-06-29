@@ -6,8 +6,6 @@ This directory contains differential analyses of **Shannon Entropy** and **Lempe
 
 These figures are included as supplementary material for the accompanying paper. Instead of than comparing separate recordings side by side, the differential plots directly visualise the magnitude, direction, and timing of changes relative to the baseline operating condition.
 
-## Difference Metrics
-
 The analyses were computed as:
 
 * **ΔH = H<sub>modulation</sub> − H<sub>baseline</sub>**
@@ -17,13 +15,9 @@ Positive values indicate increases relative to baseline, while negative values i
 
 Differential entropy highlights where the informational characteristics of the EEG signal became more or less variable over time. Differential Lempel–Ziv complexity captures corresponding changes in the temporal organisation of neural activity, providing a complementary measure of sequence complexity.
 
-## Why Differential Analysis?
-
 Absolute entropy and complexity traces describe the properties of each recording independently. Differential analysis isolates the changes between conditions, making departures from the baseline operating state immediately visible.
 
 By focusing directly on the difference between conditions, these figures identify **when**, **where**, and **to what extent** cortical information dynamics diverged from baseline.
-
-## Systems Interpretation
 
 Within the broader analytical framework of this repository, these figures emphasise **state transitions rather than absolute state**.
 
