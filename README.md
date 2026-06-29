@@ -14,4 +14,4 @@ The analyses examine complementary properties of cortical organisation, includin
 
 Rather than relying on any single EEG metric, the repository presents multiple analytical perspectives that together characterise how cortical organisation changes under different operating conditions. Each analysis examines a distinct property of the underlying system while complementing the others.
 
-Raw EEG recordings and analysis scripts are intentionally not included in this repository. The processed figures and accompanying CSV outputs are provided to support independent inspection of the reported findings and to maximise transparency of the analytical results.
+Raw EEG recordings and analysis scripts are withheld from this public repository for privacy, confidentiality, and intellectual-property reasons. The raw recordings constitute sensitive personal neurophysiological data, and the analysis scripts form part of proprietary analytical workflows. Processed figures and summary CSV outputs are provided to support transparent inspection of the reported findings without disclosing protected source material.
