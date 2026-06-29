@@ -8,8 +8,6 @@ These figures are included as supplementary material for the Influence Warfare B
 
 These analyses treat successive EEG observations as trajectories through a multidimensional spectral state space. These metrics characterise how cortical activity evolves through its own dynamical landscape by quantifying the direction, magnitude, persistence, and organisation of ongoing state transitions.
 
-## Contents
-
 The directory includes analyses of:
 
 * Global state-space flux (Cosine and L2)
@@ -19,8 +17,6 @@ The directory includes analyses of:
 * Entropy × Flux relationships
 * Regional Entropy × Flux analyses
 * Supporting CSV datasets for every figure
-
-## Summary of Findings
 
 Across the analyses, modulation was associated with several consistent changes in cortical state dynamics.
 
@@ -37,8 +33,6 @@ Cortical activity did not become static. Neural organisation continued to evolve
 Cosine-based flux demonstrated that cortical trajectories maintained continuous directional evolution, while L2 flux showed that successive states travelled shorter distances through spectral state space. Distributional analyses further indicated that modulation reduced the frequency of large state transitions while preserving frequent low-amplitude adjustments.
 
 Entropy–flux analyses suggested that the overall relationship between informational organisation and state transitions remained broadly preserved between conditions. Rather than indicating an entirely new dynamical landscape, the results are consistent with modulation altering how existing regions of state space were occupied over time.
-
-## Systems Interpretation
 
 The previous analyses describe how cortical activity is coordinated, organised, and maintained. State-space flux adds another dimension by examining how that organisation evolves from one moment to the next. Together, these analyses illustrate that cognitive state is defined not only by where cortical activity is organised, but also by how it transitions between successive operating conditions.
 
