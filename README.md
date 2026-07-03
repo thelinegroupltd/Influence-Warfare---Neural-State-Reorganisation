@@ -14,4 +14,5 @@ The analyses examine complementary properties of cortical organisation, includin
 
 Rather than relying on any single EEG metric, the repository presents multiple analytical perspectives that together characterise how cortical organisation changes under different operating conditions. Each analysis examines a distinct property of the underlying system while complementing the others.
 
+EEG signals were recorded with the Emotiv Flex 2.0, a 32-channel research-grade wireless EEG system configured according to the international 10–20 electrode layout. The sampling rate for raw EEG data was 256 Hz, and band-power (FFT) metrics were calculated at an 8 Hz cadence.
 Raw EEG recordings and analysis scripts are withheld from this public repository for privacy, confidentiality, and intellectual-property reasons. The raw recordings constitute sensitive personal neurophysiological data, and the analysis scripts form part of proprietary analytical workflows. Processed figures and summary CSV outputs are provided to support transparent inspection of the reported findings without disclosing protected source material.
