@@ -1,45 +1,47 @@
-# Spectral-Energy Fluctuation Coupling
+# Reorganisation Velocity (State-Space Flux)
 
-## State-Space Dynamics and Spectral Reorganisation
+## State-Space Movement and Spectral Reorganisation
 
-This directory contains the complete state-space analysis supporting the spectral investigations. Included are all generated figures, source CSV files, and derived metrics describing how cortical spectral dynamics evolved under the modulation condition.
+This directory contains figures and processed CSV outputs describing how EEG-derived spectral states move through a multidimensional state space over time.
 
-These figures are included as supplementary material for the Influence Warfare Beyond Narratives Cognitive State Manipulation in the Attention Age paper. Their purpose is not to demonstrate or validate a particular modulation method. Instead, they illustrate that cognitive state can be examined not only as a pattern of neural organisation, but also as a continuously evolving dynamical process.
+The purpose of this analysis is to examine cognitive state as a trajectory rather than a static snapshot. Each time point can be treated as a position in spectral state space. Flux metrics then estimate how far, and in what direction, the system moves between successive states.
 
-These analyses treat successive EEG observations as trajectories through a multidimensional spectral state space. These metrics characterise how cortical activity evolves through its own dynamical landscape by quantifying the direction, magnitude, persistence, and organisation of ongoing state transitions.
+The figure set includes:
 
-The directory includes analyses of:
+- Global L2 state-space flux.
+- Global cosine flux.
+- Bandwise flux summaries.
+- Regionalised flux summaries.
+- Standardised flux outputs using baseline-derived scaling.
+- Flux burst and distribution analyses.
+- Entropy × flux and regional entropy × flux relationships.
+- Processed CSV outputs supporting each figure.
 
-* Global state-space flux (Cosine and L2)
-* Bandwise state-space flux
-* Flux distributions
-* Burst statistics
-* Entropy × Flux relationships
-* Regional Entropy × Flux analyses
-* Supporting CSV datasets for every figure
+The outputs use several related flux measures:
 
-Across the analyses, modulation was associated with several consistent changes in cortical state dynamics.
+- **L2 flux** estimates the magnitude of state displacement between successive observations.
+- **Cosine flux** estimates directional change between successive state vectors.
+- **Standardised L2 flux** estimates displacement after scaling features against the BASELINE_EC distribution.
+- **Regionalised flux** estimates state movement after aggregating channels into broader regional groupings.
 
-These included:
+Together, these measures separate how far the system moves from whether its direction of movement remains broadly continuous.
 
-* increased large-scale functional coordination;
-* redistribution of informational complexity rather than wholesale loss of entropy;
-* longer persistence of reorganised cortical states;
-* smaller state-space excursions;
-* preservation of continuous state evolution.
+The flux summaries compare **BASELINE_EC** with **MODULATION_DATASET**. Relative to BASELINE_EC, MODULATION_DATASET shows reduced state-space displacement.
 
-Cortical activity did not become static. Neural organisation continued to evolve throughout the recording, but successive state transitions occurred through smaller and more continuous adjustments.
+Global native L2 flux decreases from approximately 62.09 to 44.11 units per second in the mean, a reduction of about 29%. Median native L2 flux decreases from approximately 52.71 to 38.87 units per second, a reduction of about 26%.
 
-Cosine-based flux demonstrated that cortical trajectories maintained continuous directional evolution, while L2 flux showed that successive states travelled shorter distances through spectral state space. Distributional analyses further indicated that modulation reduced the frequency of large state transitions while preserving frequent low-amplitude adjustments.
+Standardised L2 flux shows a similar pattern. Mean standardised L2 flux decreases from approximately 22.85 in BASELINE_EC to 16.30 in MODULATION_DATASET, while median standardised L2 flux decreases from approximately 20.13 to 15.07.
 
-Entropy–flux analyses suggested that the overall relationship between informational organisation and state transitions remained broadly preserved between conditions. Rather than indicating an entirely new dynamical landscape, the results are consistent with modulation altering how existing regions of state space were occupied over time.
+Regionalised L2 flux also decreases. Mean regionalised L2 flux falls from approximately 25.15 in BASELINE_EC to 19.28 in MODULATION_DATASET. Standardised regionalised L2 flux falls from approximately 10.08 to 7.60.
 
-The previous analyses describe how cortical activity is coordinated, organised, and maintained. State-space flux adds another dimension by examining how that organisation evolves from one moment to the next. Together, these analyses illustrate that cognitive state is defined not only by where cortical activity is organised, but also by how it transitions between successive operating conditions.
+Cosine flux changes much less than L2 flux. Global cosine flux is slightly lower in the mean during MODULATION_DATASET, but slightly higher in the median. Regional cosine flux shows the same pattern: a small mean reduction and a small median increase.
 
-Rather than simply increasing or decreasing neural activity, the findings are consistent with cortical dynamics becoming more constrained, efficient, and dynamically stable. Large intermittent reorganisations become less common, while continuous fine-scale adaptation is preserved.
+This distinction matters. L2 flux suggests that MODULATION_DATASET involves smaller state-space excursions than BASELINE_EC. Cosine flux suggests that this reduction in movement magnitude does not imply a collapse of directional state evolution. In simpler terms: the system continues to move through state space, but successive states tend to travel shorter distances.
 
-From a dynamical systems perspective, the intervention appears to modify the **navigation of cortical state space** rather than its underlying topology. The brain continues to adapt, but does so through smaller, more controlled adjustments that maintain trajectory continuity and reduce unnecessary large-scale fluctuations.
+The entropy × flux plots should be read as relationship plots, not as simple “increase” or “decrease” charts. The L2 hexbin figures show how entropy values are distributed against state-space movement magnitude within each condition. In these plots, BASELINE_EC and MODULATION_DATASET can occupy overlapping regions while still differing in density, spread, and flux range. The key interpretation is not that entropy directly causes flux, but that information distribution and state-transition velocity can be examined together as coupled features of neural-state organisation.
 
-If cognitive state influences how information is processed, then understanding the dynamics of state transitions provides additional insight into how neural systems adapt while remaining responsive to changing internal and external signals.
+State-space flux adds a dynamical layer to the repository. Coherence examines coordination, entropy examines information distribution, temporal persistence examines duration, and flux examines movement.
 
+For the accompanying influence-warfare paper, this is useful because cognitive state is not only a pattern of organisation. It is also a moving operating condition. If the state-transition landscape changes, then incoming information may be processed through a different rhythm of adaptation, stability, and responsiveness.
 
+Flux metrics do not show that the brain became better, worse, faster, or more efficient in a behavioural sense. They describe changes in the magnitude and directionality of EEG-derived spectral state transitions.
