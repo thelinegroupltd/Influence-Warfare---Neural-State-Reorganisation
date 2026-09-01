@@ -1,21 +1,27 @@
 # Frequency × Channel Reorganisation
 
-## Spatial Patterns of Spectral Reorganisation
+## Spatial Distribution of Spectral Change
 
-This directory contains figures examining how spectral power was redistributed across cortical regions and frequency bands between the baseline resting-state condition and the modulation condition.
+This directory contains figures and processed CSV outputs examining how spectral power is distributed across EEG channels and frequency bands in the baseline and modulation conditions.
 
-These figures are included as supplementary material. They illustrate that changes in cognitive state are not uniformly distributed across the cortex, but may emerge as selective patterns of regional and frequency-specific reorganisation.
+The purpose of this analysis is to add a spatial perspective to the wider neural-state framework. Rather than asking only whether activity changed overall, these figures ask where spectral organisation changed across the channel montage and which frequency bands contributed to that change.
 
-The analyses compare baseline and modulation conditions using median spectral power for each EEG channel and frequency band. Baseline-normalised difference maps and reorganisation indices were then calculated to quantify the magnitude and spatial distribution of those changes.
+The figure set includes:
 
-Across the analyses, modulation was associated with selective redistribution of spectral power rather than uniform increases or decreases across all cortical regions.
+- Absolute band × channel log10 power maps for baseline.
+- Absolute band × channel log10 power maps for modulation.
+- Baseline-normalised delta log10 maps.
+- Channel-level reorganisation indices using Jensen–Shannon distance.
+- Processed CSV tables for median power, fold change, delta log10, and channel reorganisation.
 
-The baseline-normalised difference maps demonstrate that individual frequency bands exhibited distinct spatial patterns of change. Some cortical regions showed relatively little deviation from baseline, while others displayed larger shifts in spectral organisation.
+The comparison shows selective spectral redistribution rather than uniform change across scalp-recorded channels.
 
-The reorganisation index provides a compact summary of these regional differences by quantifying the overall magnitude of spectral change for each EEG channel relative to baseline. Larger values indicate greater spectral reorganisation, while smaller values indicate that spectral organisation remained closer to the baseline operating condition.
+Mean delta log10 power is negative across all five analysed bands, with gamma and theta showing the largest average reductions. However, each band also contains channels with positive local changes. This is important: the modulation condition is not best described as a simple global power reduction. It is better described as an uneven redistribution across frequency bands and recording channels.
 
-Previous analyses within this repository describe how cortical activity is coordinated, organised, maintained, and evolves over time. The Frequency × Channel analyses add a spatial perspective by identifying **where** those changes occurred across the cortex.
+The channel-level reorganisation index identifies stronger spectral redistribution in a subset of channels, including posterior, temporal, and occipital sites. The highest Jensen–Shannon distance values include P8, FT9, O1, PO9, PO10, T7, Oz, and F7.
 
-The significance of these figures is conceptual rather than anatomical. They illustrate that changes in neural organisation are distributed unevenly across cortical regions, reinforcing the view that cognitive state reflects coordinated systems-level reorganisation rather than uniform changes in neural activity.
+Frequency × channel analysis describes the spatial layout of state change. It complements the coherence analyses, which examine relationships between channels, and the entropy and flux analyses, which examine information structure and state-transition dynamics.
 
-If cognitive state influences how information is processed, then understanding where cortical reorganisation occurs provides additional context for interpreting how different neural systems contribute to changes in attention, perception, and information processing.
+For the accompanying influence-warfare paper, the key point is that cognitive state is not a uniform global variable. It can involve distributed, frequency-specific, and regionally uneven changes in neural organisation. That systems-level framing is more useful than saying the brain is simply “more active” or “less active.”
+
+These figures should not be treated as anatomical source localisation. EEG channel maps describe scalp-recorded patterns, not precise neural generators. The findings are best interpreted as channel-level evidence of spatially uneven spectral reorganisation.
