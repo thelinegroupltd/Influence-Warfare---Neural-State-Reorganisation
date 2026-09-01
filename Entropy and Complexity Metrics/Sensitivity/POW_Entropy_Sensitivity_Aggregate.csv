@@ -1,0 +1,13 @@
+Window_Length_s,Entropy_Bins,Baseline_Median_Entropy_bits,Modulation_Median_Entropy_bits,Delta_Entropy_ModMinusBase_bits,N_Bands,Delta_Sign,Primary_10s_64bin_Sign,Sign_Agrees_With_Primary
+10,16,2.128097512,1.564170239,-0.5131866251,5,negative,negative,True
+10,32,2.973962264,2.42913042,-0.4912827722,5,negative,negative,True
+10,64,3.844301965,3.290488214,-0.5538137517,5,negative,negative,True
+30,16,2.318394383,1.692375669,-0.5365460124,5,negative,negative,True
+30,32,3.24467784,2.589488003,-0.5700610814,5,negative,negative,True
+30,64,4.180533026,3.528785903,-0.6013873311,5,negative,negative,True
+60,16,2.361993503,1.747226262,-0.5245990359,5,negative,negative,True
+60,32,3.2993703,2.647028967,-0.5410035653,5,negative,negative,True
+60,64,4.262393262,3.614575588,-0.5442661978,5,negative,negative,True
+120,16,2.477314777,1.744687198,-0.505793793,5,negative,negative,True
+120,32,3.409629749,2.648391295,-0.5336473084,5,negative,negative,True
+120,64,4.379676171,3.608497042,-0.5948091839,5,negative,negative,True

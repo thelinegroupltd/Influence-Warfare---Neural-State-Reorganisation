@@ -1,0 +1,5 @@
+Window_Length_s,Baseline_Median_LZC,Modulation_Median_LZC,Delta_LZC_ModMinusBase,Baseline_Distinct_LZC_Values,Modulation_Distinct_LZC_Values,N_Bands,Delta_Sign
+10,0.6321928095,0.6321928095,0,10,12,5,zero
+30,0.4941806622,0.5271260397,0.03294537748,13,13,5,positive
+60,0.4639005519,0.501012596,0.03711204415,12,14,5,positive
+120,0.4643854967,0.4643854967,0.02063935541,10,9,5,positive
