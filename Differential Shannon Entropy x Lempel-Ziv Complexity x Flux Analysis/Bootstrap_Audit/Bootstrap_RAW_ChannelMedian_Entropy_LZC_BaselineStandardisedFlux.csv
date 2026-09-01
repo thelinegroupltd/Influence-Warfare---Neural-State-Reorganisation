@@ -1,4 +1,0 @@
-Track,Metric_X,Metric_Y,N_Matched,Observed_Pearson_r,Bootstrap_Median_r,Bootstrap_CI_Lower,Bootstrap_CI_Upper,Confidence_Level,Block_Length_Windows,Block_Length_Seconds,Bootstrap_Iterations_Requested,Bootstrap_Iterations_Valid,Random_Seed,Resampling_Method
-RAW_ChannelMedian_BaselineStandardisedFlux,Delta_Shannon_Entropy,Delta_LZC,181,-0.5821378238638825,-0.587040853250675,-0.7509773090044667,-0.4181204373073869,0.95,6,60.0,1000,1000,1919,circular moving-block bootstrap
-RAW_ChannelMedian_BaselineStandardisedFlux,Delta_Shannon_Entropy,Delta_Flux,181,0.3640279636381509,0.3662938309022876,0.21603860839098787,0.5391733716498939,0.95,6,60.0,1000,1000,1919,circular moving-block bootstrap
-RAW_ChannelMedian_BaselineStandardisedFlux,Delta_LZC,Delta_Flux,181,0.06483214148039945,0.05157509312438989,-0.18048118024848137,0.2569584244523,0.95,6,60.0,1000,1000,1919,circular moving-block bootstrap
