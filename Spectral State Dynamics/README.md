@@ -8,10 +8,10 @@ These analyses compare a baseline eyes-closed resting condition with a modulatio
 
 The figure set includes:
 
-- Legacy heuristic raw-input coherence retained for continuity with earlier outputs.
-- Revised raw EEG band-limited coherence estimating frequency-specific channel-pair coordination.
-- Revised raw EEG phase-locking value (PLV) estimating phase synchronisation between channel pairs.
-- Revised band-power envelope coherence estimating slower coordination in amplitude-envelope dynamics.
+- Heuristic raw-input coherence retained for continuity with earlier outputs.
+- Raw EEG band-limited coherence estimating frequency-specific channel-pair coordination.
+- Raw EEG phase-locking value (PLV) estimating phase synchronisation between channel pairs.
+- Band-power envelope coherence estimating slower coordination in amplitude-envelope dynamics.
 - Modulation-versus-baseline delta maps showing where synchronisation metrics increased or decreased relative to baseline.
 
 The summaries show that the modulation condition was generally associated with lower mean synchronisation values relative to baseline across the analysed bands.
